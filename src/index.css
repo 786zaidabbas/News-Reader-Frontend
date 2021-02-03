@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Content {
+  width: 95%;
+  margin: auto;
+}
+
+.searchBar {
+  width:30%;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.searchBar:focus {
+  outline: none;
+  background: none;
+}
+
+.searchBar:placeholder-shown {
+  background-image: url('./search.png');
+  background-repeat: no-repeat;
+}
+
+.buttonClass {
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(28, 28, 138);
+  color: white; 
+  padding: 4px 15px; 
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+.buttonClass:active { 
+  transform: scale(0.98);   
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);   
+} 
+.buttonClass:focus {
+  outline: none;
+}
+
+.HeaderCursor {
+  cursor: pointer;
+}
+
+.container{  
+  float:left;  
+  display: flex;
+}
+
+.insideContainer{
+  padding: 10px;
+  float:left;  
+  display: flex;
+  flex-direction: column;
+}
+
+.stockStyle {
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(39, 133, 196);
+  color: white; 
+  padding: 5px 15px; 
+}
+
+.titleStyle {
+  margin-top: 20px;
+  border-radius:8px;
+  border: none;
+  background-color: rgb(226, 241, 247);
+  color:rgb(39, 133, 196);
+  padding: 10px;
+}
+
+.bodyStyle {    
+  padding: 10px;
+}
+
+.categoryStyle {  
+  margin-top: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color:rgb(28, 28, 138);
+  color: white; 
+  padding: 5px 15px; 
+}
+
+.paginationClass {
+  top:92%;
+  margin-left: 42% ;
+  position: fixed;
+}
+
+
